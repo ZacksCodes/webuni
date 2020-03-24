@@ -1,0 +1,43 @@
+<div class="container section-counter">
+      <div class="row">
+        <div class="col-md-6 col-lg-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="">
+          <div class="counter d-flex align-items-start mb-5">
+            <div class="icon-wrap"><img src="images/Our_Project/hide.png"></div>
+            <div class="counter-text">
+              <strong class="number" data-number="300">300</strong><strong> M</strong>
+              <span>Blind people</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+          <div class="counter d-flex align-items-start">
+            <div class="icon-wrap"><img src="images/Our_Project/braille.png"></div>
+            <div class="counter-text">
+              <strong class="number" data-number="15">15</strong><strong> %</strong>
+              <span>Can read Braille</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+          <div class="counter d-flex align-items-start mb-5">
+            <div class="icon-wrap"><img src="images/Our_Project/book.png"></div>
+            <div class="counter-text">
+              <strong class="number" data-number="7%">7</strong><strong> %</strong>
+              <span>Books available</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+          <div class="counter d-flex align-items-start">
+            <div class="icon-wrap"><img src="images/Our_Project/dollar-symbol.png"></div>
+            <div class="counter-text">
+              <strong class="number" data-number="15000000">15,000,000</strong>
+              <span>Dollars wise</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>

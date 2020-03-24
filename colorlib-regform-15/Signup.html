@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ST LEARNING SIGN UP</title>
+<!-- Favicon -->   
+	<link href="https://scontent.frba2-1.fna.fbcdn.net/v/t1.0-9/88364027_180293693421297_7526771770666254336_n.png?_nc_cat=107&_nc_sid=85a577&_nc_ohc=-6oWsABsFGAAX9Mj6o_&_nc_ht=scontent.frba2-1.fna&oh=e21fde00903b64ffd14c312e13533e7e&oe=5E961037" rel="shortcut icon"/>
+
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+ <center><div class="site-logo">
+						<a href="https://imgbb.com/"><img src="https://i.ibb.co/s3sNtXN/ST-LEARNING-14-removebg-preview.png" alt="ST-LEARNING-14-removebg-preview" border="0"></a>
+					</div></center>
+<body>
+
+
+    <div class="main">
+        <div class="container">
+            <div class="signup-content">
+                <div class="signup-img">
+                    <img src="images/signup-img.jpg" alt="">
+                </div>
+                <div class="signup-form">
+                    <form method="POST" class="register-form" id="register-form">
+                        <h2><strong>BIENVENUE,WELCOME,BIENVENIDO</strong></h2>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Prenom :</label>
+                                <input type="text" name="name" id="name" required/>
+                            </div>
+                            <div class="form-group">
+                                <label for="father_name">Nom :</label>
+                                <input type="text" name="father_name" id="father_name" required/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="address">Adresse :</label>
+                            <input type="text" name="address" id="address" required/>
+                        </div>
+                        <div class="form-radio">
+                            <label for="gender" class="radio-label">Sex :</label>
+                            <div class="form-radio-item">
+                                <input type="radio" name="Sex" id="male" checked>
+                                <label for="male">Homme</label>
+                                <span class="check"></span>
+                            </div>
+                            <div class="form-radio-item">
+                                <input type="radio" name="Sex" id="female">
+                                <label for="female">Femme</label>
+                                <span class="check"></span>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="state">Pays:</label>
+                                <div class="form-select">
+                                    <select name="Pays" id="state">
+                                        <option value="Maroc">Maroc</option>
+                                    </select>
+                                    <span class="select-icon"><i class="zmdi zmdi-chevron-down"></i></span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="city">Ville</label>
+                                <div class="form-group">
+                                  <label for="city"></label>
+                                <input type="text" name="City" id="City" required/>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="birth_date">Date de naissance</label>
+                            <input type="text" name="birth_date" id="birth_date">
+                        </div>
+                        <div class="form-group">
+                            <label for="pincode">Mot de passe</label>
+                            <input type="text" name="pincode" id="pincode">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" />
+                        </div>
+                        <div class="form-submit">
+                            <input type="submit" value="Effacer tout" class="submit" name="reset" id="reset" />
+                            <input type="submit" value="S'enregistrer" class="submit" name="submit" id="submit" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JS -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
